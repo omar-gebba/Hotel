@@ -8,9 +8,9 @@ import { MatSliderModule }          from '@angular/material/slider';
 import { MaterialModule }           from './material.module';     /// fore angular material modules
 import { AccomodationComponent }    from './components/accomodation/accomodation.component';
 import { RoomsComponent }           from './components/accomodation/rooms/rooms.component';
-import { FoodBeverageComponent }    from './components/food-beverage/food-beverage.component';
-import { RestaurantComponent }      from './components/food-beverage/restaurant/restaurant.component';
-import { DrinksComponent }          from './components/food-beverage/drinks/drinks.component';
+import { FoodAndBeverageComponent }    from './components/food-and-beverage/food-and-beverage.component';
+import { RestaurantComponent }      from './components/food-and-beverage/restaurant/restaurant.component';
+import { DrinksComponent }          from './components/food-and-beverage/drinks/drinks.component';
 import { LifestyleComponent }       from './components/lifestyle/lifestyle.component';
 import { WelnessAndSpaComponent }   from './components/lifestyle/welness-and-spa/welness-and-spa.component';
 import { ResortActivitiesComponent} from './components/lifestyle/resort-activities/resort-activities.component';
@@ -30,7 +30,7 @@ import { SignupComponent }          from './components/auth/signup/signup.compon
     AppComponent,
     AccomodationComponent,
     RoomsComponent,
-    FoodBeverageComponent,
+    FoodAndBeverageComponent,
     RestaurantComponent,
     DrinksComponent,
     LifestyleComponent,
